@@ -1,0 +1,105 @@
+avatar:
+  url: /images/avatar.jpg
+
+reward_settings:
+  enable: true
+  comment: 我很可爱，请给我钱
+
+comment:
+  tips:
+    - 因为 Valine 我保不准哪天就会因为种种原因抛弃它了。
+    - 所以如果是重要的评论，建议跳转 GitHub Issues 发表。
+    - 若没有本文 Issue，您可以使用 Comment 模版新建。
+
+valine:
+  enable: true
+  appId: p5ozon1IDIIeRht33EYJgTMq-gzGzoHsz # your leancloud application appid
+  appKey: DodbiKAwyaQvKbohS0xozlBc # your leancloud application appkey
+  # https://github.com/DesertsP/Valine-Admin
+  # https://valine.yunyoujun.cn
+  placeholder: 大佬求指教&nbsp_(:з」∠)_ （填写邮箱可以收到回复通知～）
+  visitor: true
+  recordIP: true
+  enableQQ: true
+
+footer:
+  since: 2016
+  # beian:
+    # 先设置为false，成功之后设置为true
+    # enable: true 
+    # icp: 苏ICP备17038157号
+    # custom_text: <a style="display:inline-block" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="blank" title="又拍云"><img height="30" src="https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png" alt="upyun"/></a>
+  # ...
+
+engine_search:
+  enable: false
+
+# algolia_search:
+#   enable: true
+  # ...
+
+# google_adsense:
+#   enable: true
+#   client: ca-pub-2245427233262012
+
+# google_analytics:
+#   enable: true
+#   id: UA-121354150-1
+
+# post_edit:
+#   enable: true
+#   url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
+
+albums:
+  enable: true
+
+girls:
+  enable: true
+
+tags:
+  动画: crimson
+  漫画: orange
+  Parcel: "#21374b"
+  学习: saddlebrown
+  MAD: crimson
+  教程: royalblue
+  笔记: dimgray
+  分享: blue
+  随笔: mediumpurple
+  Blender: "#d04d2d"
+  Linux: "#2577b1"
+  中传: "#ccb44b"
+  部落: "#DD306A"
+  科幻: midnightblue
+
+categories:
+  云游的小视频: "#FB7299"
+
+pages:
+  - name: 我的小伙伴们
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
+  - name: 喜欢的女孩子
+    url: /girls/
+    icon: icon-women-line
+    color: hotpink
+
+# dns_prefetch:
+#   - https://cos.yunyoujun.cn
+# cdn:
+#   pre: https://cdn.jsdelivr.net/gh/YunYouJun/yunyoujun.github.io@latest
+
+menu:
+  custom:
+    title: 留言板
+    path: /about/#comment
+    icon: icon-clipboard-line
+
+cursor:
+  enable: true
+
+baidu_push: true
+
+wordcloud:
+  enable: true
