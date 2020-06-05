@@ -2,8 +2,22 @@ avatar:
   url: /images/avatar.jpg
 
 reward_settings:
-  enable: true
+  enable: false
   comment: 有钱捧个钱场，没钱捧个人场~
+
+# reward:
+#   - name: 支付宝
+#     path: 
+#     color: "#00A3EE"
+#     icon: icon-alipay-line
+#   - name: QQ 支付
+#     path: 
+#     color: "#12B7F5"
+#     icon: icon-qq-line
+#   - name: 微信支付
+#     path: 
+#     color: "#2DC100"
+#     icon: icon-wechat-pay-line
 
 comment:
   tips:
