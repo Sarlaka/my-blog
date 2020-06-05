@@ -1,7 +1,9 @@
 ---
 title: React快速入门教程(1)——React的安装
 tags: React
+date: 2020-06-05 15:06:25
 ---
+
 ### react简介
 react是一个由Facebook公司开发，于2013年发布，用来方便开发视觉界面的js库，它的主要目标是通过将UI划分成组件的方式，让管理界面状态在任何时刻都变的简单。
 
@@ -17,17 +19,17 @@ creact-react-app是一个帮助你快速构建react项目的脚手架工具。�
 2. cd my-app
 3. npm start
 ```
-![安装.png](https://upload-images.jianshu.io/upload_images/5376938-ff4b0b4e6de39372.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![安装.png](https://pic.downk.cc/item/5ed9f2d1c2a9a83be5089ba2.png)
 
 安装成功后：
 
-![安装成功.png](https://upload-images.jianshu.io/upload_images/5376938-95561b61f0ee8ab7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![安装成功.png](https://pic.downk.cc/item/5ed9f31ac2a9a83be5094357.png)
 
 create-react-app创建了一个react项目，同时在package.json中添加了一些命令，在进入项目目录后可以执行npm start来启动项目（也可通过yarn start来启动，如果你安装了yarn的话）。
 
-![启动.jpg](https://upload-images.jianshu.io/upload_images/5376938-677b6954a6a062fb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![启动.jpg](https://pic.downk.cc/item/5ed9f34fc2a9a83be509adbe.jpg)
 
-![浏览器打开.jpg](https://upload-images.jianshu.io/upload_images/5376938-70763b709eb31b1a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![浏览器打开.jpg](https://pic.downk.cc/item/5ed9f38fc2a9a83be50a311e.jpg)
 
 除了npm start，create-react-app和添加了其它的指令：
 ```
